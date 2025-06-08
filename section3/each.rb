@@ -13,7 +13,18 @@
 #   puts  "合計金額は#{total}円です。"
 # end
 
-fruits = %w[リンゴ バナナ オレンジ]
-fruits.each.with_index(1) do |fruit, i|
-  puts "#{i}番目の商品は#{fruit}です。"
-end
+# fruits = %w[リンゴ バナナ オレンジ]
+# fruits.each.with_index(1) do |fruit, i|
+#   puts "#{i}番目の商品は#{fruit}です。"
+# end
+
+orders = ["コーヒー", "紅茶", "ほうじ茶"]
+
+# 注文を処理した結果を格納する配列
+processed_orders = []
+
+# Todo: ordersの各要素に対して、以下の処理を行う
+# 1. 「商品名の注文を受け付けました」というメッセージを作る
+# 2. そのメッセージをprocessed_ordersに追加する
+orders.each do |order|
+  puts "商品の注文を受け付けました。"
